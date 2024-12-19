@@ -1,0 +1,7 @@
+D:\ServerCS\ServerCS\obj\Debug\ServerCS.csproj.AssemblyReference.cache
+D:\ServerCS\ServerCS\obj\Debug\ServerCS.csproj.CoreCompileInputs.cache
+D:\ServerCS\ServerCS\bin\Debug\ServerCS.exe.config
+D:\ServerCS\ServerCS\bin\Debug\ServerCS.exe
+D:\ServerCS\ServerCS\bin\Debug\ServerCS.pdb
+D:\ServerCS\ServerCS\obj\Debug\ServerCS.exe
+D:\ServerCS\ServerCS\obj\Debug\ServerCS.pdb
