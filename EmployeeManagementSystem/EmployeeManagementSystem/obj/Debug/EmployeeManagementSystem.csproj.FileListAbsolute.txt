@@ -7,3 +7,4 @@ F:\Reza_Projects\Desktop-App\EmployeeManagementSystem\EmployeeManagementSystem\o
 F:\Reza_Projects\Desktop-App\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
 F:\Reza_Projects\Desktop-App\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.exe
 F:\Reza_Projects\Desktop-App\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.pdb
+F:\Reza_Projects\Desktop-App\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\EmployeeManagementSystem.Form1.resources
