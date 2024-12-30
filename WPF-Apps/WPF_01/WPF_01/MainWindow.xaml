@@ -7,9 +7,54 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Name="tbHello"  Text="Hello World" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <!--<TextBlock Name="tbHello"  Text="Hello World" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
         <Button Name="btnRun" Width="76" Height="36" VerticalAlignment="Top" HorizontalAlignment="Center" 
-                Content="Run" FontSize="20" Margin="0,259,0,0" RenderTransformOrigin="0.942,1.12" Click="btnRun_Click"/>
+                Content="Run" FontSize="20" Margin="0,259,0,0" RenderTransformOrigin="0.942,1.12" Click="btnRun_Click"/>-->
+
+        <!--<Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle Grid.Row="0" Grid.Column="0" Fill="Indigo"/>
+        <Rectangle Grid.Row="0" Grid.Column="1" Fill="CornflowerBlue"/>
+        <Rectangle Grid.Row="2" Grid.Column="1" Fill="OliveDrab"/>-->
+
+        <!--Design static and dynamic rows-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition /> <!--It will shrink dynamically-->
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        
+        <!--Menu Bar-->
+        <Rectangle Grid.Row="0" Fill="Aquamarine"/>
+        
+        <!--Content Bar-->
+        <!--<Rectangle Grid.Row="1" Fill="RosyBrown"/>-->
+        <Grid Grid.Row="1"> <!--I created a Grid in Row 1 to build different cols-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/> <!--* for proportionally resizing, making fraction of 100-->
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Grid.Column="0" Fill="LightGray"/>
+            <Rectangle Grid.Column="1" Fill="DimGray"/>
+            <Rectangle Grid.Column="2" Fill="LightGray"/>
+            
+        </Grid>
+        
+        <!--Footer-->
+        <Rectangle Grid.Row="3" Fill="Turquoise"/>
 
 
     </Grid>

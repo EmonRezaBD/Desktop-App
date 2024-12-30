@@ -27,7 +27,7 @@ namespace WPF_01
 
         private void btnRun_Click(object sender, RoutedEventArgs e)
         {
-            tbHello.Text = "Hello FSM";
+            //tbHello.Text = "Hello FSM";
         }
     }
 }

@@ -1,0 +1,5 @@
+1. Design Pattern
+Model-View-ViewModel (MVVM) 
+
+2. MFC https://www.codeproject.com/articles/892/mfc-and-design-patterns : https://www.youtube.com/watch?v=ILgiCy6IXLw&list=PLvv0ScY6vfd9wBflF0f6ynlDQuaeKYzyc
+
