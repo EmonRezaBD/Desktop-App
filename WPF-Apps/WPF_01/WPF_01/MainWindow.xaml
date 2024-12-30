@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Text="Hello World" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        
+        <TextBlock Name="tbHello"  Text="Hello World" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Button Name="btnRun" Width="76" Height="36" VerticalAlignment="Top" HorizontalAlignment="Center" 
+                Content="Run" FontSize="20" Margin="0,259,0,0" RenderTransformOrigin="0.942,1.12" Click="btnRun_Click"/>
+
+
     </Grid>
 </Window>

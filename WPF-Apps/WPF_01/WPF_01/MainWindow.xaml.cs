@@ -19,6 +19,15 @@ namespace WPF_01
         public MainWindow()
         {
             InitializeComponent();
+
+           /* tbHello.Text = "Hello World 2";//We set the initial text then changing it in runtime from code
+            btnRun.Content = "Stop";*/
+
+        }
+
+        private void btnRun_Click(object sender, RoutedEventArgs e)
+        {
+            tbHello.Text = "Hello FSM";
         }
     }
 }
