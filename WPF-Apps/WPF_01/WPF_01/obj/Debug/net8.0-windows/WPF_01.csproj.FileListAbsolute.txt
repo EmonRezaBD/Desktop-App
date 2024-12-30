@@ -1,0 +1,42 @@
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.exe
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.deps.json
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.runtimeconfig.json
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.dll
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.pdb
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\MainWindow.g.cs
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\App.g.cs
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01_MarkupCompile.cache
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01_MarkupCompile.lref
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\MainWindow.baml
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.g.resources
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.GeneratedMSBuildEditorConfig.editorconfig
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.AssemblyInfoInputs.cache
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.AssemblyInfo.cs
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.csproj.CoreCompileInputs.cache
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.sourcelink.json
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.dll
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\refint\WPF_01.dll
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.pdb
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.genruntimeconfig.cache
+F:\Reza_Projects\Desktop-App\WPF Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\ref\WPF_01.dll
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.exe
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.deps.json
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.runtimeconfig.json
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.dll
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\bin\Debug\net8.0-windows\WPF_01.pdb
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\MainWindow.g.cs
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\App.g.cs
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01_MarkupCompile.cache
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01_MarkupCompile.lref
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\MainWindow.baml
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.g.resources
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.GeneratedMSBuildEditorConfig.editorconfig
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.AssemblyInfoInputs.cache
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.AssemblyInfo.cs
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.csproj.CoreCompileInputs.cache
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.sourcelink.json
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.dll
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\refint\WPF_01.dll
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.pdb
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\WPF_01.genruntimeconfig.cache
+F:\GithubRepo\Desktop-App\WPF-Apps\WPF_01\WPF_01\obj\Debug\net8.0-windows\ref\WPF_01.dll
