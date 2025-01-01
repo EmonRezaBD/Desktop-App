@@ -10,10 +10,15 @@ namespace MVVM_App.ViewModel
         //Called this view model from main model
 
         public ObservableCollection<Item> Items { get; set; }
+
+        public RelayCommand AddCommand => new RelayCommand(execute => AddItem());
+        public RelayCommand DeleteCommand => new RelayCommand(execute => DeleteItem(), canExecute => SelectedItem!=null);
+        public RelayCommand SaveCommand => new RelayCommand(execute => Save(), canExecute => CanSave());
+
         public MainWindowViewModel() 
         {
             Items = new ObservableCollection<Item>();
-            Items.Add(new Item
+           /* Items.Add(new Item
             {
                 Name = "Iphone",
                 SerialNumber = "011",
@@ -24,7 +29,7 @@ namespace MVVM_App.ViewModel
                 Name = "Iphone2",
                 SerialNumber = "012",
                 Quantity = 2
-            });
+            });*/
         }
 
         private Item selectedItem;
@@ -38,7 +43,30 @@ namespace MVVM_App.ViewModel
             }
             
         }
-        
+
+        private void AddItem()
+        {
+            Items.Add(new Item
+            {
+                Name ="Reza",
+                SerialNumber="999",
+                Quantity = 100
+            });
+        }
+
+        private void DeleteItem()
+        {
+            Items.Remove(SelectedItem);
+        }
+
+        private void Save()
+        {
+
+        }
+        private bool CanSave()
+        {
+            return true;
+        }
 
     }
 }
