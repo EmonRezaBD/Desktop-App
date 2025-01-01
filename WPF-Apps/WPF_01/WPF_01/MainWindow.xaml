@@ -4,6 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_01"
+        xmlns:UserControl="clr-namespace:WPF_01.View.UserControls"
+        
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
@@ -29,20 +31,44 @@
         <Rectangle Grid.Row="2" Grid.Column="1" Fill="OliveDrab"/>-->
 
         <!--Design static and dynamic rows-->
-        <Grid.RowDefinitions>
-            <RowDefinition Height="70"/>
-            <RowDefinition /> <!--It will shrink dynamically-->
+        <!--<Grid.RowDefinitions>
             <RowDefinition Height="40"/>
-        </Grid.RowDefinitions>
-        
-        <!--Menu Bar-->
-        <Rectangle Grid.Row="0" Fill="Aquamarine"/>
-        
-        <!--Content Bar-->
-        <!--<Rectangle Grid.Row="1" Fill="RosyBrown"/>-->
-        <Grid Grid.Row="1"> <!--I created a Grid in Row 1 to build different cols-->
+            <RowDefinition Height="50"/>
+            <RowDefinition /> --><!--It will shrink dynamically--><!--
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>-->
+
+        <!--<Menu>
+            <MenuItem Header="File" FontSize="16">
+                <MenuItem Header="Exit"/>
+                <MenuItem Header="Start"/>
+            </MenuItem>
+
+            <MenuItem Header="Edit" FontSize="16"/>
+            
+        </Menu>-->
+
+        <!--<Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="20*"/> <!--* for proportionally resizing, making fraction of 100-->
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Width="50" Margin="5"/> --><!--Margin means it will trim from every sides--><!--
+            <TextBox Width ="150" Grid.Column="1" Margin="5"/>
+            
+        </Grid>-->
+        
+
+        <!--Menu Bar-->
+        <!--<Rectangle Grid.Row="0"/>
+        
+        --><!--Content Bar-->
+        <!--<Rectangle Grid.Row="1" Fill="RosyBrown"/>--><!--
+        <Grid Grid.Row="2"> --><!--I created a Grid in Row 1 to build different cols--><!--
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/> --><!--* for proportionally resizing, making fraction of 100--><!--
                 <ColumnDefinition Width="60*"/>
                 <ColumnDefinition Width="20*"/>
             </Grid.ColumnDefinitions>
@@ -53,8 +79,17 @@
             
         </Grid>
         
-        <!--Footer-->
-        <Rectangle Grid.Row="3" Fill="Turquoise"/>
+        --><!--Footer--><!--
+        <Rectangle Grid.Row="3" Fill="Turquoise"/>-->
+    
+        <!--Custom user control-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <UserControl:Menu/>
 
 
     </Grid>
