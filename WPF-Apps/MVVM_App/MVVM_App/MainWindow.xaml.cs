@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MVVM_App.ViewModel;
 
 namespace MVVM_App
 {
@@ -19,6 +20,8 @@ namespace MVVM_App
         public MainWindow()
         {
             InitializeComponent();
+            MainWindowViewModel vm = new MainWindowViewModel();
+            DataContext = vm;
         }
     }
 }
