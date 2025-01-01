@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
 using MVVM_App.Model;
 using MVVM_App.MVVM;
 
@@ -16,8 +11,20 @@ namespace MVVM_App.ViewModel
 
         public ObservableCollection<Item> Items { get; set; }
         public MainWindowViewModel() 
-        { 
-
+        {
+            Items = new ObservableCollection<Item>();
+            Items.Add(new Item
+            {
+                Name = "Iphone",
+                SerialNumber = "011",
+                Quantity = 1
+            });
+            Items.Add(new Item
+            {
+                Name = "Iphone2",
+                SerialNumber = "012",
+                Quantity = 2
+            });
         }
 
         private Item selectedItem;
