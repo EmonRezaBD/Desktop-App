@@ -53,7 +53,7 @@ namespace WPF_01.View.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPF_01;component/view/usercontrols/menubar.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF_01;V1.0.0.0;component/view/usercontrols/menubar.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\UserControls\MenuBar.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
