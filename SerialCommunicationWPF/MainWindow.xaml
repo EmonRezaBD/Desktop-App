@@ -1,0 +1,18 @@
+﻿<Window x:Class="SerialCommunicationWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Serial Communication" Height="400" Width="400"
+        Closing="Window_Closing">
+    <StackPanel>
+        <ComboBox x:Name="ComboBoxPorts" Width="200" Margin="10"/>
+        <Button x:Name="ConnectButton" Content="Connect" Click="ConnectButton_Click" Width="100" Margin="10"/>
+
+        <!--<TextBox x:Name="SendDataTextBox" Width="224" Margin="10" Text="Enter data to send" Height="42"/>-->
+        <Button x:Name="SendButton" Content="Send" Click="SendButton_Click" Width="100" Margin="10"/>
+        <Button x:Name="ReadDataButton" Content="Read" Click="ReadButton_Click" Width="100" Margin="10"/>
+
+        <TextBox x:Name="ReceivedDataTextBox" Width="247" Height="126" Margin="10" AcceptsReturn="True" IsReadOnly="True"/>
+
+        <Label x:Name="StatusLabel" Content="" Margin="10"/>
+    </StackPanel>
+</Window>
