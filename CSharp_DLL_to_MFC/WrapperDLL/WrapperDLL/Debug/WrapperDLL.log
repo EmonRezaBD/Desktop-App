@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  WrapperDLL.cpp
+  Generating Code...
+  .NETFramework,Version=v4.7.1.AssemblyAttributes.cpp
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  WrapperDLL.vcxproj -> D:\Reflectometer\FinalDLL_Test\WrapperDLL\Debug\WrapperDLL.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
