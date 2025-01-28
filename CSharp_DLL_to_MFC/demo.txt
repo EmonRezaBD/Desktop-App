@@ -1,0 +1,2 @@
+This repo contains the projects showcases calling a C# DLL to a MFC C++ through CLR/C++ wrapper. 
+Learn and read the documentation in Medium: https://medium.com/@rokonuzzamanreza/calling-a-net-dll-to-a-mfc-project-using-c-cli-class-library-3bcecf4566ed 
