@@ -1,0 +1,6 @@
+D:\Reflectometer\FinalDLL_Test\MathOperationsLibrary\MathOperationsLibrary\bin\Debug\MathOperationsLibrary.dll
+D:\Reflectometer\FinalDLL_Test\MathOperationsLibrary\MathOperationsLibrary\bin\Debug\MathOperationsLibrary.pdb
+D:\Reflectometer\FinalDLL_Test\MathOperationsLibrary\MathOperationsLibrary\obj\Debug\MathOperationsLibrary.csproj.AssemblyReference.cache
+D:\Reflectometer\FinalDLL_Test\MathOperationsLibrary\MathOperationsLibrary\obj\Debug\MathOperationsLibrary.csproj.CoreCompileInputs.cache
+D:\Reflectometer\FinalDLL_Test\MathOperationsLibrary\MathOperationsLibrary\obj\Debug\MathOperationsLibrary.dll
+D:\Reflectometer\FinalDLL_Test\MathOperationsLibrary\MathOperationsLibrary\obj\Debug\MathOperationsLibrary.pdb
