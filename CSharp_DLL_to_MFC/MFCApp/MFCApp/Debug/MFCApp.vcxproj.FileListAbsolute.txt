@@ -1,0 +1,2 @@
+D:\Reflectometer\FinalDLL_Test\MFCApp\MFCApp\Debug\MFCApp.vcxproj.AssemblyReference.cache
+D:\Reflectometer\FinalDLL_Test\MFCApp\MFCApp\Debug\MFCApp.vcxproj.Up2Date

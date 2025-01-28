@@ -1,0 +1,12 @@
+﻿  MFCAppDlg.cpp
+D:\Reflectometer\FinalDLL_Test\MFCApp\MFCApp\WrapperDLL.dll(1,1): warning C4945: 'WrapperClass': cannot import symbol from 'D:\Reflectometer\FinalDLL_Test\MFCApp\MFCApp\WrapperDLL.dll': as 'WrapperDLL::WrapperClass' has already been imported from another assembly 'D:\Reflectometer\FinalDLL_Test\WrapperDLL\Debug\WrapperDLL.dll'
+  (compiling source file '/MFCAppDlg.cpp')
+      D:\Reflectometer\FinalDLL_Test\MFCApp\MFCApp\WrapperDLL.dll(1,1):
+      first seen type is used; re-order imported assemblies to use the current type
+      D:\Reflectometer\FinalDLL_Test\MFCApp\MFCApp\WrapperDLL.dll(1,1):
+      This diagnostic occurred while importing type 'WrapperDLL.WrapperClass' from assembly 'WrapperDLL, Version=1.0.9158.28700, Culture=neutral, PublicKeyToken=null'.
+  
+  MFCApp.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  MFCApp.vcxproj -> D:\Reflectometer\FinalDLL_Test\MFCApp\Debug\MFCApp.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
