@@ -10,7 +10,7 @@ namespace BankAccountsApp
     {
         public string Owner {  get; set; }
         public Guid AccountNumber { get; set; } //Global unique variable
-        public decimal Balance { get; set; }
+        public decimal Balance { get; private set; } //encapsulating using setter as private
 
         //Constructor
         public BankAccount(string owner) 
@@ -18,6 +18,30 @@ namespace BankAccountsApp
             Owner = owner;
             AccountNumber = Guid.NewGuid();
             Balance = 0;
+        }
+
+        public string Deposit(decimal amount)//this method will allow to access the balance to other classes, but here all the rules will be there and we need to follow those
+        {
+            if(amount <= 0)
+                return "You can't deposit $"+amount;
+            if (amount > 20000)
+                return "Limit reached";
+
+            Balance += amount;
+            return "Deposit completed successfully";
+
+        }
+
+        public string Withdraw(decimal amount)//this method will allow to access the balance to other classes, but here all the rules will be there and we need to follow those
+        {
+            if (amount <= 0)
+                return "You can't withdraw $" + amount;
+            if (amount > Balance)
+                return "Not have enough balance";
+
+            Balance -= amount;
+            return "Withdraw completed successfully";
+
         }
     }
 }

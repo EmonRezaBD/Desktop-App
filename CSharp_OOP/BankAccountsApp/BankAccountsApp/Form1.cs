@@ -13,12 +13,12 @@ namespace BankAccountsApp
               bankAccount.AccountNumber = Guid.NewGuid(); //it'll assign a unique identifier
               bankAccount.Balance = 50000;*/
 
-           // BankAccount bankAccount2 = new BankAccount("Audi");
+            // BankAccount bankAccount2 = new BankAccount("Audi");
             /*bankAccount2.Owner = "Audi";
             bankAccount2.AccountNumber = Guid.NewGuid(); //it'll assign a unique identifier
             bankAccount2.Balance = 999;*/
 
-           // BankAccount bankAccount3 = new BankAccount("Crown");
+            // BankAccount bankAccount3 = new BankAccount("Crown");
             /* bankAccount3.Owner = "Crown";
              bankAccount3.AccountNumber = Guid.NewGuid(); //it'll assign a unique identifier
              bankAccount3.Balance = 600;
@@ -27,7 +27,7 @@ namespace BankAccountsApp
             //bankAccounts.Add(bankAccount2);
             //bankAccounts.Add(bankAccount3);
 
-           // BankAccountsGrid.DataSource = bankAccounts; //Data source will be the bank account
+            // BankAccountsGrid.DataSource = bankAccounts; //Data source will be the bank account
 
 
         }
@@ -35,7 +35,7 @@ namespace BankAccountsApp
         private void CreateAccountBtn_Click(object sender, EventArgs e)
         {
 
-            if(string.IsNullOrEmpty(OwnerTxt.Text))
+            if (string.IsNullOrEmpty(OwnerTxt.Text))
             {
                 return;
             }
@@ -43,18 +43,45 @@ namespace BankAccountsApp
             BankAccount bankAccount = new BankAccount(OwnerTxt.Text);
             bankAccounts.Add(bankAccount);
 
-            BankAccountsGrid.DataSource=null;
-            BankAccountsGrid.DataSource=bankAccounts;
+            BankAccountsGrid.DataSource = null;
+            BankAccountsGrid.DataSource = bankAccounts;
 
             RefreshGrid();
-            Owner.Text = string.Empty;
+            //Owner.Text = string.Empty;
         }
 
         private void RefreshGrid()
-        { 
+        {
             BankAccountsGrid.DataSource = null;
             BankAccountsGrid.DataSource = bankAccounts;
         }
 
+        private void DepositBtn_Click(object sender, EventArgs e)
+        {
+            if (BankAccountsGrid.SelectedRows.Count == 1) //just only 1 row selected
+            {
+                BankAccount selectedBankAccount = BankAccountsGrid.SelectedRows[0].DataBoundItem as BankAccount;
+                string message = selectedBankAccount.Deposit(AmountNum.Value);//encapsulation
+
+                RefreshGrid();
+                AmountNum.Value = 0;
+                MessageBox.Show(message);
+            }
+        }
+
+        private void WithdrawBtn_Click(object sender, EventArgs e)
+        {
+            if (BankAccountsGrid.SelectedRows.Count == 1) //just only 1 row selected
+            {
+                BankAccount selectedBankAccount = BankAccountsGrid.SelectedRows[0].DataBoundItem as BankAccount;
+                string message = selectedBankAccount.Withdraw(AmountNum.Value);  
+
+                RefreshGrid();
+                AmountNum.Value = 0;
+
+                MessageBox.Show(message);
+
+            }
+        }
     }
 }
