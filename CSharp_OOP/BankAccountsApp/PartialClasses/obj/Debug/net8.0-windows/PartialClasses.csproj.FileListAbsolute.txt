@@ -1,0 +1,16 @@
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\bin\Debug\net8.0-windows\PartialClasses.exe
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\bin\Debug\net8.0-windows\PartialClasses.deps.json
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\bin\Debug\net8.0-windows\PartialClasses.runtimeconfig.json
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\bin\Debug\net8.0-windows\PartialClasses.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\bin\Debug\net8.0-windows\PartialClasses.pdb
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\PartialClasses.Form1.resources
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\PartialClasses.csproj.GenerateResource.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\PartialClasses.GeneratedMSBuildEditorConfig.editorconfig
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\PartialClasses.AssemblyInfoInputs.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\PartialClasses.AssemblyInfo.cs
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\PartialClasses.csproj.CoreCompileInputs.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\PartialClasses.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\refint\PartialClasses.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\PartialClasses.pdb
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\PartialClasses.genruntimeconfig.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\PartialClasses\obj\Debug\net8.0-windows\ref\PartialClasses.dll

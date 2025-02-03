@@ -1,0 +1,14 @@
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\bin\Debug\net8.0\Interfaces.exe
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\bin\Debug\net8.0\Interfaces.deps.json
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\bin\Debug\net8.0\Interfaces.runtimeconfig.json
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\bin\Debug\net8.0\Interfaces.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\bin\Debug\net8.0\Interfaces.pdb
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\obj\Debug\net8.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfoInputs.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\obj\Debug\net8.0\Interfaces.AssemblyInfo.cs
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\obj\Debug\net8.0\Interfaces.csproj.CoreCompileInputs.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\obj\Debug\net8.0\Interfaces.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\obj\Debug\net8.0\refint\Interfaces.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\obj\Debug\net8.0\Interfaces.pdb
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\obj\Debug\net8.0\Interfaces.genruntimeconfig.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\Interfaces\obj\Debug\net8.0\ref\Interfaces.dll
