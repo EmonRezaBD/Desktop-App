@@ -1,0 +1,14 @@
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\bin\Debug\net8.0\OverrideApp.exe
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\bin\Debug\net8.0\OverrideApp.deps.json
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\bin\Debug\net8.0\OverrideApp.runtimeconfig.json
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\bin\Debug\net8.0\OverrideApp.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\bin\Debug\net8.0\OverrideApp.pdb
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\obj\Debug\net8.0\OverrideApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\obj\Debug\net8.0\OverrideApp.AssemblyInfoInputs.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\obj\Debug\net8.0\OverrideApp.AssemblyInfo.cs
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\obj\Debug\net8.0\OverrideApp.csproj.CoreCompileInputs.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\obj\Debug\net8.0\OverrideApp.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\obj\Debug\net8.0\refint\OverrideApp.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\obj\Debug\net8.0\OverrideApp.pdb
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\obj\Debug\net8.0\OverrideApp.genruntimeconfig.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\OverrideApp\obj\Debug\net8.0\ref\OverrideApp.dll
