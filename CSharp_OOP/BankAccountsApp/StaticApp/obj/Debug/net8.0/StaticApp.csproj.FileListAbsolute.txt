@@ -1,0 +1,14 @@
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\bin\Debug\net8.0\StaticApp.exe
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\bin\Debug\net8.0\StaticApp.deps.json
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\bin\Debug\net8.0\StaticApp.runtimeconfig.json
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\bin\Debug\net8.0\StaticApp.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\bin\Debug\net8.0\StaticApp.pdb
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\obj\Debug\net8.0\StaticApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\obj\Debug\net8.0\StaticApp.AssemblyInfoInputs.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\obj\Debug\net8.0\StaticApp.AssemblyInfo.cs
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\obj\Debug\net8.0\StaticApp.csproj.CoreCompileInputs.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\obj\Debug\net8.0\StaticApp.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\obj\Debug\net8.0\refint\StaticApp.dll
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\obj\Debug\net8.0\StaticApp.pdb
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\obj\Debug\net8.0\StaticApp.genruntimeconfig.cache
+D:\WPFDev\CSharp OOP\BankAccountsApp\StaticApp\obj\Debug\net8.0\ref\StaticApp.dll

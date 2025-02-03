@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideApp", "OverrideApp\OverrideApp.csproj", "{3FF92D84-755A-4E54-8C57-F5F4A6B1AC21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticApp", "StaticApp\StaticApp.csproj", "{F7D0D06F-14BD-48AE-9FB6-09A652D41863}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,14 @@ Global
 		{3FF92D84-755A-4E54-8C57-F5F4A6B1AC21}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3FF92D84-755A-4E54-8C57-F5F4A6B1AC21}.Release|x64.ActiveCfg = Release|Any CPU
 		{3FF92D84-755A-4E54-8C57-F5F4A6B1AC21}.Release|x64.Build.0 = Release|Any CPU
+		{F7D0D06F-14BD-48AE-9FB6-09A652D41863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D0D06F-14BD-48AE-9FB6-09A652D41863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D0D06F-14BD-48AE-9FB6-09A652D41863}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F7D0D06F-14BD-48AE-9FB6-09A652D41863}.Debug|x64.Build.0 = Debug|Any CPU
+		{F7D0D06F-14BD-48AE-9FB6-09A652D41863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D0D06F-14BD-48AE-9FB6-09A652D41863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D0D06F-14BD-48AE-9FB6-09A652D41863}.Release|x64.ActiveCfg = Release|Any CPU
+		{F7D0D06F-14BD-48AE-9FB6-09A652D41863}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
