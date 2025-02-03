@@ -10,8 +10,8 @@ namespace BankAccountsApp
     {
         public string Owner {  get; set; }
         public Guid AccountNumber { get; set; } //Global unique variable
-        public decimal Balance { get; private set; } //encapsulating using setter as private
-
+        public decimal Balance { get; protected set; } //encapsulating using setter as private
+                                //protected : accessible inside own class and inside derived classes
         //Constructor
         public BankAccount(string owner) 
         { 
@@ -20,7 +20,7 @@ namespace BankAccountsApp
             Balance = 0;
         }
 
-        public string Deposit(decimal amount)//this method will allow to access the balance to other classes, but here all the rules will be there and we need to follow those
+        public virtual string Deposit(decimal amount)//this method will allow to access the balance to other classes, but here all the rules will be there and we need to follow those
         {
             if(amount <= 0)
                 return "You can't deposit $"+amount;
