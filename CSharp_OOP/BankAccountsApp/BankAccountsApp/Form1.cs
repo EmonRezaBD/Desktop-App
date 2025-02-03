@@ -39,15 +39,26 @@ namespace BankAccountsApp
             {
                 return;
             }
-            //MessageBox.Show("Hello World");
-            BankAccount bankAccount = new BankAccount(OwnerTxt.Text);
-            bankAccounts.Add(bankAccount);
+
+            if(interestRateNum.Value >0 )
+            {
+                SavingsAccount sAccount = new SavingsAccount(OwnerTxt.Text, interestRateNum.Value);
+                bankAccounts.Add(sAccount);
+            }
+            else
+            {
+                //MessageBox.Show("Hello World");
+                BankAccount bankAccount = new BankAccount(OwnerTxt.Text);
+                bankAccounts.Add(bankAccount);
+
+            }
 
             BankAccountsGrid.DataSource = null;
             BankAccountsGrid.DataSource = bankAccounts;
 
             RefreshGrid();
-            //Owner.Text = string.Empty;
+            OwnerTxt.Text = string.Empty;
+            interestRateNum.Value = 0;
         }
 
         private void RefreshGrid()
@@ -74,7 +85,7 @@ namespace BankAccountsApp
             if (BankAccountsGrid.SelectedRows.Count == 1) //just only 1 row selected
             {
                 BankAccount selectedBankAccount = BankAccountsGrid.SelectedRows[0].DataBoundItem as BankAccount;
-                string message = selectedBankAccount.Withdraw(AmountNum.Value);  
+                string message = selectedBankAccount.Withdraw(AmountNum.Value);
 
                 RefreshGrid();
                 AmountNum.Value = 0;
@@ -83,5 +94,6 @@ namespace BankAccountsApp
 
             }
         }
+
     }
 }
