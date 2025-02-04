@@ -1,73 +1,50 @@
 ﻿using System;
+using System.ComponentModel;
+using MultiThreadProj;
 namespace MultiThreadingProj
 {
     class Program
     {
+        //Vars
+
+        //Methods
+        public void Add(int a, int b)
+        {
+            Console.WriteLine("Sum: {0}", a+b);
+            //return a+b;
+        }
+        public void Sub(int a, int b)
+        {
+            Console.WriteLine("Subtarction: {0}", a - b);
+            //return a+b;
+        }
+        public void Mul(int a, int b, int c)
+        {
+            Console.WriteLine("Multiplication: {0}", a * b *c);
+            //return a+b;
+        }
+        public void Div()
+        {
+            Console.WriteLine("Division");
+            for (int i = 0; i < 5; i++)
+            {
+               Console.WriteLine("Inside Div func");
+            }
+            //return a+b;
+        }
         static void Main(string[] args)
         {
-            //Console.WriteLine("Welcome to Dotnet world!");
-            //Console.ReadKey();
-            //Press : Debug -> Windows -> Thread
-            //Thread t = Thread.CurrentThread;
-            //t.Name = "Main Thread";
-            //Console.WriteLine("Current Thread Name: "+t.Name);
-           /* Method1();
-            Method2();
-            Method3();
-            Console.Read();*/
+            Program p1 = new Program();
 
-            Console.WriteLine("Main Thread Started");
-            //Creating Threads
-            Thread t1 = new Thread(Method1)
-            {
-                Name = "Thread1"
-            };
-            Thread t2 = new Thread(Method2)
-            {
-                Name = "Thread2"
-            };
-            Thread t3 = new Thread(Method3)
-            {
-                Name = "Thread3"
-            };
-            //Executing the methods
-            t1.Start();
-            t2.Start();
-            t3.Start();
+            //p1.Add is args delegate function
+            //CThread AdditionThread1 = new CThread("Addtion", p1.Add); //if there is parameter then ThreadStart will not accept and we need lamda expression
+            CThread AdditionThread2 = new CThread("Addition", () => p1.Add(10, 20)); //Lamda expression
+            CThread SubsThread1 = new CThread("Subtraction", () => p1.Sub(10, 20));
+            CThread MulThread1 = new CThread("Multiplication", () => p1.Mul(10, 20, 2));
+            CThread DivThread1 = new CThread("Division", ()=>p1.Div());
 
-            Console.WriteLine("Main Thread Ended");
-            Console.Read();
-        }
-        static void Method1()
-        {
-            for (int i = 1; i <= 5; i++)
-            {
-                Console.WriteLine("Method1 :" + i);
-            }
-        }
+            Console.ReadKey(); // Prevents the program from exiting immediately
 
-        static void Method2()
-        {
-            Console.WriteLine("Method2 Started using " + Thread.CurrentThread.Name);
-            for (int i = 1; i <= 5; i++)
-            {
-                Console.WriteLine("Method2 :" + i);
-                if (i == 3)
-                {
-                    Console.WriteLine("Performing the Database Operation Started");
-                    //Sleep for 10 seconds
-                  //  Thread.Sleep(10000);
-                    Console.WriteLine("Performing the Database Operation Completed");
-                }
-            }
-            Console.WriteLine("Method2 Ended using " + Thread.CurrentThread.Name);
-        }
-        static void Method3()
-        {
-            for (int i = 1; i <= 5; i++)
-            {
-                Console.WriteLine("Method3 :" + i);
-            }
         }
     }
 }
