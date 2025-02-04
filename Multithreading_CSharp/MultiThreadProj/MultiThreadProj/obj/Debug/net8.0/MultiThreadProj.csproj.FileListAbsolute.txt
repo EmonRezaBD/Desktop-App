@@ -1,0 +1,15 @@
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\bin\Debug\net8.0\MultiThreadProj.exe
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\bin\Debug\net8.0\MultiThreadProj.deps.json
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\bin\Debug\net8.0\MultiThreadProj.runtimeconfig.json
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\bin\Debug\net8.0\MultiThreadProj.dll
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\bin\Debug\net8.0\MultiThreadProj.pdb
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\MultiThreadProj.GeneratedMSBuildEditorConfig.editorconfig
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\MultiThreadProj.AssemblyInfoInputs.cache
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\MultiThreadProj.AssemblyInfo.cs
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\MultiThreadProj.csproj.CoreCompileInputs.cache
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\MultiThreadProj.sourcelink.json
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\MultiThreadProj.dll
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\refint\MultiThreadProj.dll
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\MultiThreadProj.pdb
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\MultiThreadProj.genruntimeconfig.cache
+D:\Reflectometer\FinalDLL_Test\Desktop-App\Multithreading_CSharp\MultiThreadProj\MultiThreadProj\obj\Debug\net8.0\ref\MultiThreadProj.dll
