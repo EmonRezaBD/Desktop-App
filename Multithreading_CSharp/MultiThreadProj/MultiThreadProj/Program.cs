@@ -32,6 +32,11 @@ namespace MultiThreadingProj
             }
             //return a+b;
         }
+
+        public static void testDelegate(string message)
+        {
+            Console.WriteLine(message);
+        }
         static void Main(string[] args)
         {
             Program p1 = new Program();
@@ -54,7 +59,9 @@ namespace MultiThreadingProj
              );
             taskThread.Start();
 
-       
+            //Delegate
+            DisplayMessage msgDelegate = testDelegate;
+            msgDelegate("This is from Delegate"); //invoking delegate method
 
 
             Console.ReadKey(); // Prevents the program from exiting immediately

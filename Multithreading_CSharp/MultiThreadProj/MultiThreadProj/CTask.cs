@@ -11,12 +11,22 @@ namespace MultiThreadProj
     {
         //Method
         private Program pr = new Program();
+        private static void CTaskDelegate(string msg)
+        {
+            Console.WriteLine(msg);
+        }
 
         public void addTask()
         {
             Console.WriteLine("Task class Thread start");
             pr.Add(2, 40);
             Console.WriteLine("Task class Thread end");
+        }
+
+        public void CTaskDelegate()
+        {
+            DisplayMessage msg = CTaskDelegate;
+            msg("CTaskDelegate");
         }
     }
 }
