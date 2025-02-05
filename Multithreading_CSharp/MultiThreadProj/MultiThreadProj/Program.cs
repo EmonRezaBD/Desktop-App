@@ -41,7 +41,21 @@ namespace MultiThreadingProj
             CThread AdditionThread2 = new CThread("Addition", () => p1.Add(10, 20)); //Lamda expression
             CThread SubsThread1 = new CThread("Subtraction", () => p1.Sub(10, 20));
             CThread MulThread1 = new CThread("Multiplication", () => p1.Mul(10, 20, 2));
-            CThread DivThread1 = new CThread("Division", ()=>p1.Div());
+            CThread DivThread1 = new CThread("Division", () => p1.Div());
+
+            //Console.WriteLine("Properties of Thread Class");
+            //Task class
+
+            CTask taskObj = new CTask();
+            Task taskThread = new Task(() =>
+            {
+              taskObj.addTask();
+            }
+             );
+            taskThread.Start();
+
+       
+
 
             Console.ReadKey(); // Prevents the program from exiting immediately
 
