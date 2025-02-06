@@ -1,11 +1,63 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Threading;
 using System.Threading.Tasks;
 
 using MultiThreadProj;
 
 namespace MultiThreadingProj
 {
+    //class for mutex 
+    class Example
+    {
+       // Create a new Mutex. The creating thread does not own the mutex.
+       public static Mutex mut = new Mutex();
+       public const int numIterations = 1;
+       public const int numThreads = 3;
+
+       public void threadCreation()
+       {
+            for (int i = 0; i < numThreads; i++)
+            {
+                Thread newThread = new Thread(new ThreadStart(ThreadProc));
+                newThread.Name = String.Format("Thread{0}", i + 1);
+                newThread.Start();
+            }
+
+       }
+
+        public static void ThreadProc()
+        {
+            for (int i = 0; i < numIterations; i++)
+            {
+                UseResource();
+            }
+        }
+        public static void UseResource()
+        {
+            // Wait until it is safe to enter.
+            Console.WriteLine("{0} is requesting the mutex",
+                              Thread.CurrentThread.Name);
+            mut.WaitOne();//mutex call
+
+            Console.WriteLine("{0} has entered the protected area",
+                              Thread.CurrentThread.Name);
+
+            // Place code to access non-reentrant resources here.
+
+            // Simulate some work.
+            Thread.Sleep(500);
+
+            Console.WriteLine("{0} is leaving the protected area",
+                Thread.CurrentThread.Name);
+
+            // Release the Mutex.
+            mut.ReleaseMutex();
+            Console.WriteLine("{0} has released the mutex",
+                Thread.CurrentThread.Name);
+        }
+
+    }
     class Program
     {
         //Vars
@@ -105,12 +157,8 @@ namespace MultiThreadingProj
             chTh02.Start();
 
             chTh01.Start();
-            chTh01.Join();
-
-           
+            chTh01.Join();           
             chTh02.Join();
-
-           
 
             Console.WriteLine("1. MainThread Started");
             for (int i = 0; i <= 3; i++)
@@ -119,9 +167,12 @@ namespace MultiThreadingProj
                 //Thread.Sleep(2000); // Here 5000 is 5000 Milli Seconds means 5 Seconds
             }
 
+            //Test Mutex
 
+            Example mutObj = new Example();
+            mutObj.threadCreation();
 
-            Console.ReadKey(); // Prevents the program from exiting immediately
+            //Console.ReadKey(); // Prevents the program from exiting immediately
 
         }
     }
