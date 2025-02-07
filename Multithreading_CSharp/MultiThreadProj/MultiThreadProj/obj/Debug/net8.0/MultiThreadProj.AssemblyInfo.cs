@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiThreadProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46fa75eeee714f5cb7e8716415d38a427f600d34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e790d8eb41143dd4979ee341a7d9ed5213d88467")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiThreadProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiThreadProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
