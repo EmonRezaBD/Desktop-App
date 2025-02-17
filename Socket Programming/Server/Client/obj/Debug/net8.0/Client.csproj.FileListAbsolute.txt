@@ -1,0 +1,14 @@
+D:\MWA\TCP_IP_Proj\Server\Client\obj\Debug\net8.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\MWA\TCP_IP_Proj\Server\Client\obj\Debug\net8.0\Client.AssemblyInfoInputs.cache
+D:\MWA\TCP_IP_Proj\Server\Client\obj\Debug\net8.0\Client.AssemblyInfo.cs
+D:\MWA\TCP_IP_Proj\Server\Client\obj\Debug\net8.0\Client.csproj.CoreCompileInputs.cache
+D:\MWA\TCP_IP_Proj\Server\Client\bin\Debug\net8.0\Client.exe
+D:\MWA\TCP_IP_Proj\Server\Client\bin\Debug\net8.0\Client.deps.json
+D:\MWA\TCP_IP_Proj\Server\Client\bin\Debug\net8.0\Client.runtimeconfig.json
+D:\MWA\TCP_IP_Proj\Server\Client\bin\Debug\net8.0\Client.dll
+D:\MWA\TCP_IP_Proj\Server\Client\bin\Debug\net8.0\Client.pdb
+D:\MWA\TCP_IP_Proj\Server\Client\obj\Debug\net8.0\Client.dll
+D:\MWA\TCP_IP_Proj\Server\Client\obj\Debug\net8.0\refint\Client.dll
+D:\MWA\TCP_IP_Proj\Server\Client\obj\Debug\net8.0\Client.pdb
+D:\MWA\TCP_IP_Proj\Server\Client\obj\Debug\net8.0\Client.genruntimeconfig.cache
+D:\MWA\TCP_IP_Proj\Server\Client\obj\Debug\net8.0\ref\Client.dll
