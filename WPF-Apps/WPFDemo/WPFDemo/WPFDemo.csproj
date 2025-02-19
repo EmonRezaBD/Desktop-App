@@ -8,4 +8,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Caliburn.Micro" Version="4.0.230" />
+  </ItemGroup>
+
 </Project>

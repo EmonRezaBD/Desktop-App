@@ -19,3 +19,9 @@ D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\obj\Debug\ne
 D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\obj\Debug\net8.0-windows\WPFDemo.pdb
 D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\obj\Debug\net8.0-windows\WPFDemo.genruntimeconfig.cache
 D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\obj\Debug\net8.0-windows\ref\WPFDemo.dll
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\bin\Debug\net8.0-windows\Caliburn.Micro.Platform.Core.dll
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\bin\Debug\net8.0-windows\Caliburn.Micro.Platform.dll
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\bin\Debug\net8.0-windows\Caliburn.Micro.Core.dll
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\obj\Debug\net8.0-windows\WPFDemo.csproj.AssemblyReference.cache
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\WPFDemo\obj\Debug\net8.0-windows\WPFDemo.csproj.Up2Date
