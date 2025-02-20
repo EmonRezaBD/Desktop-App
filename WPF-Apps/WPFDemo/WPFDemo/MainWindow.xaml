@@ -51,8 +51,18 @@
         <!--<Image Grid.Row="1" Grid.Column="4" Grid.RowSpan="6" Source="D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\Lion.png"/>-->
         <!--<MediaElement Grid.Row="1" Grid.Column="4" Grid.RowSpan="6" Source="D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\NamedPipe.mp4"/>-->
 
-        
-        
-        
+        <StackPanel Grid.Row="1" Grid.Column="4" Orientation="Vertical">
+            <Image MaxHeight="200" MaxWidth="200" Source="D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\Lion.png"/>
+            <Image MaxHeight="200" MaxWidth="200" Source="D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\Tiger.png"/>
+            <Image MaxHeight="200" MaxWidth="200" Source="D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\Parrot.jpg"/>
+            
+        </StackPanel>
+        <!--<WrapPanel Grid.Row="1" Grid.Column="4" Orientation="Horizontal">
+            <Image MaxHeight="200" MaxWidth="200" Source="D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\Lion.png"/>
+            <Image MaxHeight="200" MaxWidth="200" Source="D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\Tiger.png"/>
+            <Image MaxHeight="200" MaxWidth="200" Source="D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\Parrot.jpg"/>
+
+        </WrapPanel>-->
+
     </Grid>
 </Window>
