@@ -39,7 +39,13 @@
         <ComboBox x:Name="myComboBox" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2" Margin="20">
             <ComboBox.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding FullName}"/>
+                    <!--<TextBlock Text="{Binding FullName}"/>-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image Height="20" Width="20" Source="D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\WPFDemo\Parrot.jpg"/>
+                        <TextBlock Text="{Binding FirstName}"/>
+                        <TextBlock Text=" "/>
+                        <TextBlock Text="{Binding LastName}"/>
+                    </StackPanel>
 
                 </DataTemplate>
             </ComboBox.ItemTemplate>
