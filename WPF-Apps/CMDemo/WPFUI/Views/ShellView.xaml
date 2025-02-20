@@ -28,11 +28,11 @@
             <RowDefinition Height="20"/>
             
         </Grid.RowDefinitions>
-        <TextBlock Text="{Binding Path=FirstName, Mode=OneWay}" Grid.Column="1"> </TextBlock>
-        <TextBox Width="100" Grid.Row="2" Grid.Column="1" x:Name="FirstName">
-            
-        </TextBox>
-        
-        
+        <TextBlock Text="{Binding Path=FullName, Mode=OneWay}" Grid.Column="1"> </TextBlock>
+        <TextBox Width="100" Grid.Row="2" Grid.Column="1" x:Name="FirstName"/>
+        <TextBox Width="100" Grid.Row="2" Grid.Column="2" x:Name="LastName"/>
+
+
+
     </Grid>
 </Window>
