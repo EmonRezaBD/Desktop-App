@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Caliburn.Micro;
+using WPFUI.Models;
 
 namespace WPFUI.ViewModels
 {
@@ -38,7 +39,7 @@ namespace WPFUI.ViewModels
 
             }
         }
-		//propfull tab tba
+		//propfull tab tab
 
 
 		public string FullName
@@ -46,6 +47,20 @@ namespace WPFUI.ViewModels
 			get { return $"{FirstName} {LastName}"; }
 		}
 
+		private BindableCollection<PersonModel> _people = new BindableCollection<PersonModel>();
 
+		public BindableCollection<PersonModel> People
+		{
+			get { return _people; }
+			set { _people = value; }
+		}
+
+		private PersonModel _selectedPerson;
+
+		public PersonModel SelectedPerson
+		{
+			get { return _selectedPerson; }
+			set { _selectedPerson = value; }
+		}
 	}
 }
