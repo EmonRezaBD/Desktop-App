@@ -29,8 +29,10 @@
         private void InitializeComponent()
         {
             displayPic = new PictureBox();
-            btnGrab = new Button();
+            btnStart = new Button();
+            btnStop = new Button();
             btnExit = new Button();
+            FPS_Label = new Label();
             ((System.ComponentModel.ISupportInitialize)displayPic).BeginInit();
             SuspendLayout();
             // 
@@ -43,46 +45,70 @@
             displayPic.TabIndex = 0;
             displayPic.TabStop = false;
             // 
-            // btnGrab
+            // btnStart
             // 
-            btnGrab.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnGrab.Location = new Point(157, 383);
-            btnGrab.Name = "btnGrab";
-            btnGrab.Size = new Size(121, 40);
-            btnGrab.TabIndex = 1;
-            btnGrab.Text = "Grab";
-            btnGrab.UseVisualStyleBackColor = true;
-            btnGrab.Click += btnGrab_Click;
+            btnStart.Location = new Point(173, 365);
+            btnStart.Name = "btnStart";
+            btnStart.Size = new Size(92, 53);
+            btnStart.TabIndex = 1;
+            btnStart.Text = "Start";
+            btnStart.UseVisualStyleBackColor = true;
+            btnStart.Click += btnStart_Click;
+            // 
+            // btnStop
+            // 
+            btnStop.Location = new Point(305, 365);
+            btnStop.Name = "btnStop";
+            btnStop.Size = new Size(92, 53);
+            btnStop.TabIndex = 2;
+            btnStop.Text = "Stop";
+            btnStop.UseVisualStyleBackColor = true;
+            btnStop.Click += btnStop_Click;
             // 
             // btnExit
             // 
-            btnExit.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnExit.Location = new Point(628, 398);
+            btnExit.Location = new Point(693, 365);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(121, 40);
-            btnExit.TabIndex = 2;
+            btnExit.Size = new Size(81, 53);
+            btnExit.TabIndex = 3;
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
             btnExit.Click += btnExit_Click;
+            // 
+            // FPS_Label
+            // 
+            FPS_Label.AutoSize = true;
+            FPS_Label.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            FPS_Label.ForeColor = Color.Red;
+            FPS_Label.Location = new Point(540, 372);
+            FPS_Label.Name = "FPS_Label";
+            FPS_Label.Size = new Size(46, 30);
+            FPS_Label.TabIndex = 4;
+            FPS_Label.Text = "FPS";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(FPS_Label);
             Controls.Add(btnExit);
-            Controls.Add(btnGrab);
+            Controls.Add(btnStop);
+            Controls.Add(btnStart);
             Controls.Add(displayPic);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Object Detection App";
             ((System.ComponentModel.ISupportInitialize)displayPic).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private PictureBox displayPic;
-        private Button btnGrab;
+        private Button btnStart;
+        private Button btnStop;
         private Button btnExit;
+        private Label FPS_Label;
     }
 }
