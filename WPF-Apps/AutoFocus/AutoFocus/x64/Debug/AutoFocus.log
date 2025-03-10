@@ -1,0 +1,9 @@
+﻿  AutoFocus.cpp
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\AutoFocus\AutoFocus\AutoFocus.cpp(33,26): warning C4101: 'k': unreferenced local variable
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\AutoFocus\AutoFocus\AutoFocus.cpp(33,9): warning C4101: 'Count': unreferenced local variable
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\AutoFocus\AutoFocus\AutoFocus.cpp(33,16): warning C4101: 'Expected': unreferenced local variable
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\AutoFocus\AutoFocus\AutoFocus.cpp(19,9): warning C4101: 'Ret': unreferenced local variable
+D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\AutoFocus\AutoFocus\AutoFocus.cpp(32,19): warning C4101: 't': unreferenced local variable
+  AutoFocus.vcxproj -> D:\Reflectometer\FinalDLL_Test\Desktop-App\WPF-Apps\AutoFocus\x64\Debug\AutoFocus.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmuCVBase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0ca78db63a5e18294032f4daf533f10acb6b250")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dcda8677c1e07f80f931431902dbcab8886da58")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmuCVBase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmuCVBase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

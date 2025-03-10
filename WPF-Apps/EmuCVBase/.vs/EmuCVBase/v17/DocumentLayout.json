@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2AB2B8-CCD6-4F19-84E3-852A88D0BF66}|EmuCVBase\\EmuCVBase.csproj|d:\\reflectometer\\finaldll_test\\desktop-app\\wpf-apps\\emucvbase\\emucvbase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2AB2B8-CCD6-4F19-84E3-852A88D0BF66}|EmuCVBase\\EmuCVBase.csproj|solutionrelative:emucvbase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2AB2B8-CCD6-4F19-84E3-852A88D0BF66}|EmuCVBase\\EmuCVBase.csproj|d:\\reflectometer\\finaldll_test\\desktop-app\\wpf-apps\\emucvbase\\emucvbase\\emucvbase.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4A2AB2B8-CCD6-4F19-84E3-852A88D0BF66}|EmuCVBase\\EmuCVBase.csproj|solutionrelative:emucvbase\\emucvbase.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2AB2B8-CCD6-4F19-84E3-852A88D0BF66}|EmuCVBase\\EmuCVBase.csproj|D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\emucvbase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A2AB2B8-CCD6-4F19-84E3-852A88D0BF66}|EmuCVBase\\EmuCVBase.csproj|solutionrelative:emucvbase\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A2AB2B8-CCD6-4F19-84E3-852A88D0BF66}|EmuCVBase\\EmuCVBase.csproj|d:\\reflectometer\\finaldll_test\\desktop-app\\wpf-apps\\emucvbase\\emucvbase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A2AB2B8-CCD6-4F19-84E3-852A88D0BF66}|EmuCVBase\\EmuCVBase.csproj|solutionrelative:emucvbase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\EmuCVBase\\Form1.cs",
+              "RelativeDocumentMoniker": "EmuCVBase\\Form1.cs",
+              "ToolTip": "D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\EmuCVBase\\Form1.cs",
+              "RelativeToolTip": "EmuCVBase\\Form1.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:08:51.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmuCVBase",
+              "DocumentMoniker": "D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\EmuCVBase\\EmuCVBase.csproj",
+              "RelativeDocumentMoniker": "EmuCVBase\\EmuCVBase.csproj",
+              "ToolTip": "D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\EmuCVBase\\EmuCVBase.csproj",
+              "RelativeToolTip": "EmuCVBase\\EmuCVBase.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-04T05:43:36.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\EmuCVBase\\Form1.cs",
+              "RelativeDocumentMoniker": "EmuCVBase\\Form1.cs",
+              "ToolTip": "D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\EmuCVBase\\Form1.cs [Design]",
+              "RelativeToolTip": "EmuCVBase\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T05:42:54.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\EmuCVBase\\Program.cs",
+              "RelativeDocumentMoniker": "EmuCVBase\\Program.cs",
+              "ToolTip": "D:\\Reflectometer\\FinalDLL_Test\\Desktop-App\\WPF-Apps\\EmuCVBase\\EmuCVBase\\Program.cs",
+              "RelativeToolTip": "EmuCVBase\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T05:42:36.746Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
